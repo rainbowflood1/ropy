@@ -1,7 +1,6 @@
 import sys
 import time
 import warnings
-import pyautogui
 
 def init():
     with open("finished.lua", "a") as f:
