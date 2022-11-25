@@ -117,9 +117,9 @@ def chat():
 def TextChatService():
     with open("finished.lua", "a") as f:
         return f.write(".TextChatService")
-#def print(value):
-#    with open("finished.lua", "a") as f:
-#        return f.write("print(" + "'" + value + "'" + ")")
+def print(value):
+    with open("finished.lua", "a") as f:
+        return f.write("print(" + "'" + value + "'" + ")")
 def settingbool(setting, value):
     with open("finished.lua", "a") as f:
         if customsetting.isalpha() == True:
